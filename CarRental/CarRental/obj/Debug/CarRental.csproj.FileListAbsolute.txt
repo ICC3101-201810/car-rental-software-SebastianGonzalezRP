@@ -1,0 +1,7 @@
+C:\Users\ING\Desktop\car-rental-software-SebastianGonzalezRP\CarRental\CarRental\obj\Debug\CarRental.csprojResolveAssemblyReference.cache
+C:\Users\ING\Desktop\car-rental-software-SebastianGonzalezRP\CarRental\CarRental\obj\Debug\CarRental.csproj.CoreCompileInputs.cache
+C:\Users\ING\Desktop\car-rental-software-SebastianGonzalezRP\CarRental\CarRental\bin\Debug\CarRental.exe.config
+C:\Users\ING\Desktop\car-rental-software-SebastianGonzalezRP\CarRental\CarRental\bin\Debug\CarRental.exe
+C:\Users\ING\Desktop\car-rental-software-SebastianGonzalezRP\CarRental\CarRental\bin\Debug\CarRental.pdb
+C:\Users\ING\Desktop\car-rental-software-SebastianGonzalezRP\CarRental\CarRental\obj\Debug\CarRental.exe
+C:\Users\ING\Desktop\car-rental-software-SebastianGonzalezRP\CarRental\CarRental\obj\Debug\CarRental.pdb

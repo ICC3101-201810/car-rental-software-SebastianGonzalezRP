@@ -6,17 +6,18 @@ using System.Threading.Tasks;
 
 namespace CarRental
 {
-    class Sucursal:Arriendo
+    class Sucursal
     {
-        string NombreS;
-        string Direccion;
-        int nAutos, nCamionetas, nAcuaticos, nBuses, nRetro, nMotos;
+        public string NombreS;
+        public string Direccion;
+        public int nAutos, nCamionetas, nAcuaticos, nBuses, nRetro, nMotos;
+        public List<Arriendo> arriendo = new List<Arriendo>();
 
         public void CrearSucursal()
         {
             Console.Write("Ingrese Nombre De la Sucursal : ");
             NombreS = Console.ReadLine();
-            Console.Write("Ingrese Direccion Sucursal " + NombreS + " ");
+            Console.Write("Ingrese Direccion Sucursal " + NombreS + " :");
             Direccion = Console.ReadLine();
             Console.Write("Ingrese Cantidad de Autos de la Sucursal : ");
             nAutos = Convert.ToInt32(Console.ReadLine());
@@ -30,7 +31,7 @@ namespace CarRental
             nRetro = Convert.ToInt32(Console.ReadLine());
             Console.Write("Ingrese Cantidad de Motos de la Sucursal : ");
             nMotos = Convert.ToInt32(Console.ReadLine());
-            List<Arriendo> arriendos = new List<Arriendo>();
+            List<Arriendo> arriendo = new List<Arriendo>();
         }
 
         public string GetNombre()
@@ -42,11 +43,6 @@ namespace CarRental
         {
             Console.WriteLine(NombreS);
         }
-        public void Arriendo()
-        {
-            Arrendar();
-        }
-
 
     }
 }

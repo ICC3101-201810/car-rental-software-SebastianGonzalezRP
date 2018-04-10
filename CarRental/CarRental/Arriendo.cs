@@ -10,14 +10,14 @@ namespace CarRental
     {
         string Cliente;
         bool Documento;
-        string TipoVehiculo;
+        public string TipoVehiculo;
         string opc;
 
         public void Arrendar()
         {
-            Console.Write("Ingrese Tipo De Cliente : Persona/Empresa/Organizacion/Institucion ");
+            Console.WriteLine("Ingrese Tipo De Cliente : Persona/Empresa/Organizacion/Institucion ");
             Cliente = Console.ReadLine();
-            Console.Write("El Cliente cuenta con la documentacion pertinente : Y/N");
+            Console.WriteLine("El Cliente cuenta con la documentacion pertinente : Y/N");
             opc = Console.ReadLine();
             if (opc == "Y" )
             {
@@ -27,9 +27,17 @@ namespace CarRental
             {
                 Documento = false;
             }
-            Console.Write("Tipo de Vehiculo a Arrendar : Auto/Camioneta/Acuatico/Bus/Retro/Moto");
-            TipoVehiculo = Console.ReadLine();
-            Console.WriteLine("");
+            if (Documento == true)
+            {
+                Console.WriteLine("Tipo de Vehiculo a Arrendar : Auto/Camioneta/Acuatico/Bus/Retro/Moto :");
+                TipoVehiculo = Console.ReadLine();
+
+                Console.WriteLine("");
+            }
+        }
+        public string GetVehiculo()
+        {
+            return TipoVehiculo;
         }
     }   
 }

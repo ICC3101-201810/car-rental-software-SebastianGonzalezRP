@@ -1,0 +1,7 @@
+C:\Users\ING\Desktop\Lab6-195672229\CarRental2\CarRental2\obj\Debug\CarRental2.csprojResolveAssemblyReference.cache
+C:\Users\ING\Desktop\Lab6-195672229\CarRental2\CarRental2\obj\Debug\CarRental2.csproj.CoreCompileInputs.cache
+C:\Users\ING\Desktop\Lab6-195672229\CarRental2\CarRental2\bin\Debug\CarRental2.exe.config
+C:\Users\ING\Desktop\Lab6-195672229\CarRental2\CarRental2\bin\Debug\CarRental2.exe
+C:\Users\ING\Desktop\Lab6-195672229\CarRental2\CarRental2\bin\Debug\CarRental2.pdb
+C:\Users\ING\Desktop\Lab6-195672229\CarRental2\CarRental2\obj\Debug\CarRental2.exe
+C:\Users\ING\Desktop\Lab6-195672229\CarRental2\CarRental2\obj\Debug\CarRental2.pdb
